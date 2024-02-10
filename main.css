@@ -26,7 +26,7 @@
   
   .inner-div-left {
     width: 40%; /* This will make the left inner div occupy 40% of the container */
-    height: 100%; /* This will make the left inner div take up the full height of the container */
+    height: 200vh; /* This will make the left inner div take up the full height of the container */
     position: relative;
     background-color: #414040; /* Just for visualization */
     overflow: hidden;
@@ -134,4 +134,8 @@ p {
   margin-block-end: 1px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+.created
+{z-index: 1;
+position: absolute;
 }
