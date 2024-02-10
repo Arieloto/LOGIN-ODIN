@@ -26,9 +26,9 @@
   
   .inner-div-left {
     width: 40%; /* This will make the left inner div occupy 40% of the container */
-    height: 200vh; /* This will make the left inner div take up the full height of the container */
+    height: 100%; /* This will make the left inner div take up the full height of the container */
     position: relative;
-    background-color: #414040; /* Just for visualization */
+    background-color: #f7f6f6; /* Just for visualization */
     overflow: hidden;
   }
   
@@ -38,7 +38,7 @@
   .odinphoto {
     position: absolute;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Utilizar rgba solo para el color de fondo */  
+    background-color: rgba(250, 249, 249, 0.3); /* Utilizar rgba solo para el color de fondo */  
     top: 12rem;
     text-align: center;
     font-size: 5.2em; 
@@ -138,7 +138,7 @@ p {
 .created
 {color: rgb(255, 255, 255);
   z-index: 1;  
-  position: fixed;
+  position: absolute;
     margin-top: 900px;
     margin-left: 160px;
 
