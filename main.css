@@ -71,7 +71,7 @@
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       width: 70%; /* This will make the right inner div occupy 60% of the container */
       height: 200vh; /* This will make the right inner div overflow the container by setting its height to be twice the viewport height (screen size)*/
-     overflow: hidden;
+
       background-color:rgb(250, 252, 250); /* Just for visualization */
      
     }
@@ -136,6 +136,13 @@ p {
   margin-inline-end: 0px;
 }
 .created
-{z-index: 1;
-position: absolute;
+{color: rgb(255, 255, 255);
+  z-index: 1;  
+  position: fixed;
+    margin-top: 900px;
+    margin-left: 160px;
+
+  
+ 
+
 }
