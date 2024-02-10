@@ -1,0 +1,137 @@
+@font-face {
+    font-family: norse;
+    src: url(/Norse-Bold.otf);
+  }
+
+  body {
+    font-family:norse,Norse-Bold, Helvetica, sans-serif;
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .background {
+   
+   display: flex;
+   max-height: 100vh; /* This will set the maximum height of the container to be equal to the viewport height (screen size) */
+   overflow: hidden; /* This will hide any content that overflows the container */
+    
+  }
+
+
+  .inner-div {
+    box-sizing: border-box; /* This is to include padding and border in the element's total width */
+    
+  }
+  
+  .inner-div-left {
+    width: 40%; /* This will make the left inner div occupy 40% of the container */
+    height: 100%; /* This will make the left inner div take up the full height of the container */
+    position: relative;
+    background-color: #414040; /* Just for visualization */
+    overflow: hidden;
+  }
+  
+
+
+
+  .odinphoto {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Utilizar rgba solo para el color de fondo */  
+    top: 12rem;
+    text-align: center;
+    font-size: 5.2em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+  }
+  .logo {
+    color: white;
+    opacity: 1;    
+    
+  }
+
+  .form {
+  
+   
+   
+    background-color: rgb(255, 255, 255); /* Utilizar rgba solo para el color de fondo */       
+    font-size:16px;
+    overflow: hidden;    
+    -moz-box-shadow: -1px 5px 8px 0px rgba(0,0,0,0.27);
+    box-shadow: -1px 5px 8px 0px rgba(0,0,0,0.27);
+    color: rgba(0, 0, 0, 0.404);
+    padding-left:40px ;
+
+    }
+    
+    .inner-div-right {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 70%; /* This will make the right inner div occupy 60% of the container */
+      height: 200vh; /* This will make the right inner div overflow the container by setting its height to be twice the viewport height (screen size)*/
+     overflow: hidden;
+      background-color:rgb(250, 252, 250); /* Just for visualization */
+     
+    }
+
+table{margin-bottom: 10px;
+  font-size: 12px;
+  
+}
+
+input {
+  border: 2px solid #00000013;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+ background-color:beige
+}
+.spc{min-width: 40px;}
+
+.buttongreen{
+  margin: 40px;
+  color: #fafafa;
+  background-color: #596D48;
+  border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+width: 30%;
+padding: 10px;
+cursor: pointer;
+font-size: 16px;
+font-family: Arial black;
+
+}
+.buttongreen:hover {
+  background-color: #73905E; /* Color de fondo al pasar el ratón */
+  font-size: 16px;
+}
+
+.sectorup{
+
+margin-top: 210px;
+margin-left: 40px;
+
+line-height: 0.7;
+font-size:x-large;
+
+
+overflow:auto;
+}
+.sectordown{
+ 
+ 
+  height: 100%;
+   
+}
+
+p {
+  display: block;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
